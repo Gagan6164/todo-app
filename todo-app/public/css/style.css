@@ -1,0 +1,59 @@
+@media (min-width: 768px) {
+  .intro {
+    height: 100%;
+    padding: 0;
+  }
+}
+.intro {
+  display: table;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background: url("1.jpg") no-repeat top center scroll;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  z-index: -100;
+}
+#spiders {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  z-index: -50;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+#root {
+  text-align: center;
+  margin: 40px 500px 100px 500px;
+  z-index: 1000;
+}
+#root table {
+  background-color: rgba(243, 234, 221, 0.705);
+  color: rgba(0, 0, 0, 0.768);
+}
+
+#root header {
+  padding: 0 0 40px 0;
+}
+#root img {
+  width: 30%;
+  height: auto;
+  margin: 0 0 10px 0;
+}
+#root form div {
+  display: flex;
+  padding: auto;
+  width: 100%;
+}
